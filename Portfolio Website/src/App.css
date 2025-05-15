@@ -116,3 +116,8 @@
         max-width: 80%;
     }
 }
+@media (max-width: 400px) {
+    .mernImage{
+        width: 70%;
+    }
+}

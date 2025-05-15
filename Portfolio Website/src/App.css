@@ -1,0 +1,118 @@
+@font-face {
+    font-family: "Cal Sans";
+    src: url("./CalSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("./Montserrat-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: "Montserrat-Medium";
+    src: url("./Montserrat-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Inter", sans-serif;
+    src: url("./Inter_24pt-Regular.ttf");
+}
+
+.navbar-brand {
+    font-family: "Montserrat", sans-serif;
+}
+
+.nav-link {
+    font-family: "Montserrat-Medium", sans-serif;
+}
+
+.mainColor {
+    background-color: #1A1A1A;
+}
+
+.profileImage {
+    border: 3px solid white;
+    border-radius: 500px;
+}
+.profileBorder{
+    border: 3px solid #0DCAF0;
+}
+.textColor{
+    color: #c0bebe;
+}
+
+.fontStyle {
+    font-family: 'Poppins';
+}
+
+.fontInter {
+    font-family: "Inter", sans-serif;
+}
+.fontAdjust{
+    font-size: 55px;
+    letter-spacing: 37px;
+    padding-left: 35px;
+}
+
+.fwTitle {
+    font-size: 5vw;
+    font-weight: 600;
+}
+
+.fwTagline {
+    font-weight: 600;
+    background: linear-gradient(45deg, #ceb6b0, #017de2);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fwParagraph {
+    color: rgb(194, 190, 190);
+}
+
+.btn-outline-primary {
+    border-radius: 30px;
+}
+
+/* MainPart CSS */
+
+.responsive-title {
+    font-size: 5vw;
+}
+
+@media (max-width: 768px) {
+    .fwTitle {
+        font-size: 32px;
+    }
+
+    .fwTagline {
+        font-size: 18px;
+    }
+
+    .fwParagraph {
+        font-size: 14px;
+    }
+
+    .btn {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 576px) {
+    .fwTitle {
+        font-size: 28px;
+    }
+
+    .fwTagline {
+        font-size: 16px;
+    }
+
+    .fwParagraph {
+        font-size: 12px;
+    }
+
+    img {
+        max-width: 80%;
+    }
+}

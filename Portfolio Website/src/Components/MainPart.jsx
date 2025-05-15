@@ -107,7 +107,7 @@ const MainPart = () => {
                                         I build fast, scalable, and user-friendly web apps using MongoDB, Express, React, and Node.js —
                                         delivering efficient backend systems and smooth frontend experiences.
                                     </p>
-                                    <button className="btn btn-outline-primary text-white mt-3 px-4 py-2" ref={contactRef}>Contact Me</button>
+                                    <a className="btn btn-outline-primary text-white mt-3 px-4 py-2" ref={contactRef} href="mailto:jinitmewada41@gmail.com" >Contact Me</a>
                                 </div>
                             </div>
                         </div>

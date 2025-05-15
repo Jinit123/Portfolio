@@ -97,7 +97,6 @@ const MainPart = () => {
                                             src={MERNF}
                                             alt="MERN Stack"
                                             className="img-fluid mernImage"
-                                            style={{ maxWidth: '300px' }}
                                             ref={mernImage}
                                         />
                                     </div>

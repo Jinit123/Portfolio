@@ -74,6 +74,9 @@
 .btn-outline-primary {
     border-radius: 30px;
 }
+.mernImage{
+    width: 40%;
+}
 
 /* MainPart CSS */
 
@@ -81,13 +84,13 @@
     font-size: 5vw;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1629px) {
     .fwTitle {
         font-size: 32px;
     }
 
     .fwTagline {
-        font-size: 18px;
+        font-size: 88px;
     }
 
     .fwParagraph {
@@ -97,6 +100,29 @@
     .btn {
         font-size: 16px;
     }
+    .mernImage{
+        width: 60%;
+    }
+}
+@media (max-width: 848px) {
+    .fwTitle {
+        font-size: 24px;
+    }
+
+    .fwTagline {
+        font-size: 28px;
+    }
+
+    .fwParagraph {
+        font-size: 14px;
+    }
+
+    .btn {
+        font-size: 16px;
+    }
+    .mernImage{
+        width: 60%;
+    }
 }
 
 @media (max-width: 576px) {
@@ -105,7 +131,7 @@
     }
 
     .fwTagline {
-        font-size: 16px;
+        font-size: 26px;
     }
 
     .fwParagraph {
@@ -116,8 +142,26 @@
         max-width: 80%;
     }
 }
-@media (max-width: 400px) {
+@media (max-width: 410px) {
+    .fwTitle {
+        font-size: 32px;
+    }
+
+    .fwTagline {
+        font-size: 26px;
+        letter-spacing: 25px;
+        margin-left: -10px;
+    }
+
+    .fwParagraph {
+        font-size: 14px;
+    }
+
+    .btn {
+        font-size: 16px;
+    }
     .mernImage{
-        width: 70%;
+        width: 60%;
     }
 }
+

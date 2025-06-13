@@ -1,6 +1,8 @@
 import React from 'react'
 import P1 from '../assets/P1.png'
 import ET from '../assets/ET.png'
+import GS from '../assets/GS.png'
+import GS1 from '../assets/GS1.png'
 import { useEffect, useRef } from 'react'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import gsap from 'gsap'
@@ -47,6 +49,28 @@ const Projects = () => {
                         <div className="card text-white bg-dark shadow-lg" style={{ borderRadius: "12px" }}>
                             <div className="card-body text-center">
                                 <div className='card-img-top' >
+                                    <img src={GS1} alt="" className='img-fluid' />
+                                </div>
+                                <h4 className="card-title fw-bold pb-3 mt-4 fontStyle">Gear Shifter - MERN STACK</h4>
+                                <p className="card-text fontInter text-center px-3">GearShifter is a full-stack car service management system designed to streamline vehicle maintenance, repairs, and upgrades. Whether you need detailing, tyre replacement, light upgrades, or comprehensive servicing, GearShifter provides a seamless online booking experience, ensuring top-tier car care at your convenience</p>
+                                <div className="mt-3 d-flex align-items-center justify-content-center">
+                                    <p className='card-text mb-0 me-2 text-info fontInter'>Technology Used</p>
+                                    <i className="fab fa-react fa-2x text-info me-2"></i>
+                                    <i className="fab fa-bootstrap fa-2x text-primary me-2"></i>
+                                    <i className="fab fa-node-js fa-2x text-warning me-2"></i>
+                                    <i className="fas fa-database fa-2x text-success me-2"></i>
+                                    <i className="fas fa-server fa-2x text-white me-2"></i>
+                                </div>
+                                <a href="https://gearshifter.vercel.app/" target="_blank" rel="noopener noreferrer" className="btn btn-info text-dark w-100 fw-bold mt-3">
+                                    Visit Now
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-12 col-md-6 col-lg-4">
+                        <div className="card text-white bg-dark shadow-lg" style={{ borderRadius: "12px" }}>
+                            <div className="card-body text-center">
+                                <div className='card-img-top' >
                                     <img src={P1} alt="" className='img-fluid' />
                                 </div>
                                 <h4 className="card-title fw-bold pb-3 mt-4 fontStyle">Clinical Diagnosis</h4>
@@ -56,6 +80,10 @@ const Projects = () => {
                                     <i className="fab fa-react fa-2x text-info me-2"></i>
                                     <i className="fab fa-bootstrap fa-2x text-info"></i>
                                 </div>
+                                 <a href="https://clinicaldiagnosis.netlify.app/" target="_blank" rel="noopener noreferrer" className="btn btn-info text-dark w-100 fw-bold mt-3">
+                                    Visit Now
+                                </a>
+                                
                             </div>
                         </div>
                     </div>

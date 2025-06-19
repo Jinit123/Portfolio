@@ -1,5 +1,4 @@
 import React from 'react'
-import resume from '../../public/Jinit_Mewada_Resume.pdf'
 
 const Navbar = () => {
 

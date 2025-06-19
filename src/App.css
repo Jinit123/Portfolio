@@ -1,21 +1,21 @@
 @font-face {
     font-family: "Cal Sans";
-    src: url("./CalSans-Regular.ttf");
+    src: url("/CalSans-Regular.ttf");
 }
 
 @font-face {
     font-family: "Montserrat";
-    src: url("./Montserrat-SemiBold.ttf");
+    src: url("/Montserrat-SemiBold.ttf");
 }
 
 @font-face {
     font-family: "Montserrat-Medium";
-    src: url("./Montserrat-Medium.ttf");
+    src: url("/Montserrat-Medium.ttf");
 }
 
 @font-face {
     font-family: "Inter", sans-serif;
-    src: url("./Inter_24pt-Regular.ttf");
+    src: url("/Inter_24pt-Regular.ttf");
 }
 
 .navbar-brand {
